@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore The Summer</title>
+  <link rel="stylesheet" href="hot.css" />
+</head>
+
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo"><a href="/">Travel</a></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="media/hot.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop</h2>
+      <h3>Exploring The World</h3>
+      <p id="message"></p>
+
+      <a href="#"><button onclick="play()" type="button" class="button">
+          PLAY
+        </button></a>
+      <a href="#"><button onclick="pause()" type="button" class="button">
+          PAUSE
+        </button></a>
+    </div>
+    <ul class="social">
+      <li>
+        <a href="https://www.facebook.com/" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/" target="_blank"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+      </li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="/hot">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="gallery .html">Gallery</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+  <script src="menu.js"></script>
+  <script src="Typewritter.js"></script>
+
+  <audio autoplay loop id="music">
+    <source src="music/sedative-110241.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script>
+    var myMusic = document.getElementById("music");
+
+    function play() {
+      myMusic.play();
+    }
+
+    function pause() {
+      myMusic.pause();
+    }
+  </script>
+</body>
+
+</html>
