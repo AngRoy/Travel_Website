@@ -2,7 +2,7 @@ html {
     height: 100%;
   }
   html body {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(mauricio-artieda-zm1bVyY_Jjc-unsplash.jpg) fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(https://unsplash.it/1920/1080?image=871) fixed;
     display: flex;
     justify-content: center;
     height: 100%;
